@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.ubimix.commons</groupId>
+    <artifactId>org.ubimix.commons.poms</artifactId>
+    <name>${project.artifactId}</name>
+    <version>1.2.1</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../org.ubimix.commons.adapters</module>
+        <module>../org.ubimix.commons.events</module>
+        <module>../org.ubimix.commons.fs</module>
+        <module>../org.ubimix.commons.geo</module>
+        <module>../org.ubimix.commons.iterator</module>
+        <module>../org.ubimix.commons.json</module>
+        <module>../org.ubimix.commons.json.rpc.servlet</module>
+        <module>../org.ubimix.commons.osgi</module>
+        <module>../org.ubimix.commons.rpc</module>
+        <module>../org.ubimix.commons.search</module>
+        <module>../org.ubimix.commons.strings</module>
+        <module>../org.ubimix.commons.templates.api</module>
+        <module>../org.ubimix.commons.templates.freemarker</module>
+        <module>../org.ubimix.commons.templates.stringtemplate</module>
+        <module>../org.ubimix.commons.templates.velocity</module>
+        <module>../org.ubimix.commons.uri</module>
+        <module>../org.ubimix.commons.utils</module>
+        <module>../org.ubimix.commons.vaadin</module>
+        <module>../org.ubimix.commons.xml</module>
+    </modules>
+</project>
